@@ -23,8 +23,6 @@ This project aims to extract specific details such as names, phone numbers, emai
   - `WordNetLemmatizer`
 
 Install necessary libraries using:
-
-```bash
 pip install pandas nltk spacy flair
 
 
