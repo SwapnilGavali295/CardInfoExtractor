@@ -27,3 +27,18 @@ Install necessary libraries using:
 ```bash
 pip install pandas nltk spacy flair
 
+
+## Files
+
+- **top10k.txt**: Contains the 10,000 most common English words, used to filter non-English terms.
+- **jobs.txt**: A list of common job titles, used to identify job-related terms in the data.
+- **MyContacts(1).xlsx**: A sample Excel file with OCR-scanned data, where parsed text data should be placed in the `parsedTxt` column for processing.
+
+## Installation
+
+To set up the environment and dependencies, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/contact-card-entity-extraction.git
+   cd contact-card-entity-extraction
